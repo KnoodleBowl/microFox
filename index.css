@@ -1,0 +1,31 @@
+body {
+  background-color:rgb(50,50,50);
+}
+.header {
+  display:flex;
+}
+.logo {
+  width: 120px;
+  height: 40px;
+  align-self:center;
+}
+nav {
+  flex:1;
+  display: flex;
+  width:100%;
+  justify-content: right;
+}
+nav ul {
+  flex: 1;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+}
+nav a {
+  flex:1;
+  align-self: center;
+  text-decoration: none;
+  color:white;
+  margin:0px 1em 0px 0em;
+}
