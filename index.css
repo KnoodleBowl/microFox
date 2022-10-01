@@ -2,74 +2,57 @@ body {
   background-color: rgb(43, 43, 43);
   margin:0px;
   padding:0px;
+  font-family: Arial;
+  color: white;
+
 }
 .header {
-  background-color: aqua;
+  background-color:rgb(73, 73, 73);
   display:flex;
+  width: 100%;
   height: 50px;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 .container {
-  flex: 1;
-  background-color: blueviolet;
+  width: 40%;
 }
 .container img {
-  width: 120px;
+  width: 140px;
   height: auto;
-  
 }
 nav {
-  flex:1;
-  height: 100%;
-  background-color: brown;
+  display: flex;
+  width: 60%;
+  text-align:center;
+  justify-content:space-around;
 }
-.dropdown {
-  height: 100%;
-}
-nav button {
-  position: absolute;
-  background-color:blue;
-  color:white;
-  border-color:white;
-}
-nav ul {
-  background-color:coral;
-  text-align: center;
-}
-nav ul li {
-  display: inline;
-  list-style: none;
-}
-li a {
+nav a {
   text-decoration: none;
   color: white;
 }
+.top {
+  background-color:rgb(129, 50, 5);
+  width: 90%;
+  margin: auto;
+}
+.slogan {
+  display:block;
+  text-align:center;
+  background-color:rgb(43, 43, 43);
+  padding-bottom: 40px;
+}
 
-@media (max-width: 600px) {
-  nav {
-    text-align:left;
-  }
-  .dropdown {
-    padding: 15px;
-  }
-  nav button {
-    position: relative;
-  }
-  nav ul {
-    display:inline;
-    position:absolute;
-    opacity: 0;
-    padding:10px;
-  }
-  nav ul li {
-    display: block;
-    padding: 5px;
-    text-align: left;
-  }
-  nav button:focus + ul {
-    opacity: 1;
-  }
-  nav ul:focus {
-    opacity: 1;
-  }
+.clothe1 {
+  display: flex;
+  justify-content: space-around;
+}
+.description {
+  text-align: center;
+  justify-content:space-between;
+}
+
+.clothe1 img {
+  width: 90%;
 }
